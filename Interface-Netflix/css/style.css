@@ -1,0 +1,109 @@
+:root{
+    --preta: #141414;
+    --vermelha: #e50914
+}
+
+/* Padrao */
+
+.container{
+    padding: 0 3%;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/* Barra de nav */
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h2{
+    color: var(--vermelha);
+    font-size: 42px;
+    font-family: 'Arial Black';
+}
+
+header a{
+    text-decoration: none;
+    color:#faebd7;
+    margin-right: 10px;
+}
+
+header a:hover{
+    color: #c7c5c2;
+    font-weight: bolder;
+}
+
+/* Parte Principal */
+
+.anime-principal{
+    font-size: 17px;
+    background:  linear-gradient(rgba(0, 0, 0, 0.698), rgba(0, 0, 0, 0.698)) ,url('../img/principal.jpg');
+    background-size: cover;
+    height:500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.anime-principal h3{
+    font-size:40px;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.descricao{
+    margin-bottom: 10px;
+    max-width: 550px;
+}
+
+.btn{
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 17px;
+    
+    text-align: center;
+    border:0;
+    margin-right: 10px;
+    padding:10px 25px;
+    background-color: rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.685);
+}    
+
+.two{
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+.two:hover{
+    background-color: rgba(255, 255, 255, 0.395);
+}
+
+.btn i{
+    margin-right: 8px;
+}
+
+/* LIST ONE */
+
+.list-one-box{
+    width: 100%;
+    height: 100%;
+    display: block;
+}

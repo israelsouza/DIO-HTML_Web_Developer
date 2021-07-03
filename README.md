@@ -3,3 +3,4 @@ Exercícios realizados em um bootcamp (HTML Web Developer) no site da Digital In
 
 - Tela de login do Instagram
 
+- Clonando a interface da Netflix
