@@ -15,11 +15,20 @@
     <header>
         <div class="container">
             <h2>NETFLIX</h2>
-            <nav>
+            <nav class="desktop">
                 <a href="#" target="_blank">Inicio</a>
                 <a href="#" target="_blank">Séries</a>
                 <a href="#" target="_blank">Filmes</a>
                 <a href="#" target="_blank">Documentários</a>
+            </nav>
+
+            <nav class="mobile" id="mob" onmouseover="mostrarMenu()" onmouseout="resetMenu()">
+                <ul id="mobile-list">
+                    <li><a href="#" target="_blank">Inicio</a></li>
+                    <li><a href="#" target="_blank">Séries</a></li>
+                    <li><a href="#" target="_blank">Filmes</a></li>
+                    <li><a href="#" target="_blank">Documentários</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -27,8 +36,8 @@
     <main>
         <div class="anime-principal">
             <div class="container">
-                <h3>Avatar: A Lenda de Aang</h3>
-                <p class="descricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae nulla quidem, assumenda nihil eveniet quisquam rerum, molestiae sequi iste quo nesciunt labore. Perferendis, velit quisquam. Eaque soluta eos voluptatem illo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h3>Os Simpsons</h3>
+                <p class="descricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae nulla quidem, assumenda nihil eveniet quisquam rerum, molestiae sequi iste quo nesciunt labore. Perferendis, velit quisquam. Eaque soluta eos voluptatem illo.
                 </p>
 
                 <button class="btn">

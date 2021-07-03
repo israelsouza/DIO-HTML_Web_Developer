@@ -14,3 +14,14 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+var mobile = document.getElementById('mobile-list')
+
+function mostrarMenu(){
+    mobile.style.opacity = 1
+    mobile.style.transition = '1.4s'
+}
+
+function resetMenu(){
+    mobile.style.opacity = 0
+}
